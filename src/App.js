@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+//imports the signup component from Signup.js
+import Signup from './components/Signup/Signup'
+//brings in the css for app.css
+import "./App.css";
 
+//uses the signup component to render onto the COM
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Signup/>
     </div>
   );
 }
+
+
 
 export default App;
